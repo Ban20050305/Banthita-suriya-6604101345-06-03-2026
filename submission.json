@@ -1,11 +1,11 @@
 {
-  "student_id": "6604101345",
-  "name": "Banthita Suriya",
-  "github_repo": "https://github.com/Ban20050305/Banthita-suriya-6604101345-06-03-2026.git",
-  "backend_base_url": "https://ch3-1-proxy-server.onrender.com",
-  "frontend_url": "https://banthita-suriya-6604101345-06-03-2026.netlify.app",
-  "api": {
-    "health": "https://ch3-1-proxy-server.onrender.com/api/health",
-    "tasks": "https://ch3-1-proxy-server.onrender.com/api/tasks"
-  }
+    "student_id": "6604101345",
+    "name": "Banthita Suriya",
+    "github_repo": "https://github.com/Ban20050305/Banthita-suriya-6604101345-06-03-2026.git",
+    "backend_base_url": "https://banthita-suriya-6604101345-06-03-2026.onrender.com",
+    "frontend_url": "https://banthita-suriya-6604101345-06-03-20.vercel.app/#/",
+    "api": {
+        "health": "https://banthita-suriya-6604101345-06-03-2026.onrender.com/api/health",
+        "tasks": "https://banthita-suriya-6604101345-06-03-2026.onrender.com/api/tasks"
+    }
 }
