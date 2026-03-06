@@ -1,6 +1,6 @@
 {
-    "buildCommand": "cd frontend && npx quasar build",
-    "outputDirectory": "frontend/dist/spa",
+    "buildCommand": "npx quasar build",
+    "outputDirectory": "dist/spa",
     "framework": "vite",
     "rewrites": [
         {
