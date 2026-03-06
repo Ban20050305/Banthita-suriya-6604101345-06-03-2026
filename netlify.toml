@@ -1,0 +1,8 @@
+[build]
+  base = "frontend"
+  command = "npx quasar build"
+  publish = "frontend/dist/spa"
+
+[build.environment]
+  # หมายเหตุ: คุณต้องไปตั้งค่า API_URL ในหน้าเว็บ Netlify (Environment variables)
+  # ให้ชี้ไปยัง URL ของ Render ตามด้วย /api

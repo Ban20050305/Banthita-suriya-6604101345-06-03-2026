@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: backend-api
+    env: node
+    rootDir: backend
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: "3000"
+      - key: DATABASE_URL
+        sync: false # คุณต้องไปใส่ค่า DATABASE_URL (จาก Supabase) ในหน้าเว็บ Render
