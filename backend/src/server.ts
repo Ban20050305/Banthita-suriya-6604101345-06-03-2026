@@ -52,6 +52,15 @@ app.get('/', (_req, res) => {
   });
 });
 
+// health API for exam
+app.get('/api/health', (_req, res) => {
+  res.json({
+    ok: true,
+    message: 'API พร้อมใช้งาน',
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Task API (Lab 2.1)
 app.use('/api/tasks', taskRoutes);
 
